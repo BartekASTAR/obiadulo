@@ -1,4 +1,4 @@
-# ulobiady
+# ULOiady
 ### Po co stworzyliśmy ULObiady?
 Aplikacja ULObiady powstała z powodu powolnego systemu wydawania obiadów w naszej szkole. Obecny system w naszej szkole wygląda mniej więcej tak:
 1. Uczeń zamawia posiłek w aplikacji dostawcy. Musi to zrobić dzień przed datą odbioru posiłku.
