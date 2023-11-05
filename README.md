@@ -12,4 +12,11 @@ Punkt 2. zajmuje zdecydowanie za dużo czasu. Dyżurni gubią się w kartkach, n
 ### Jak działa aplikacja ULObiady?
 To proste! Uczeń pobiera aplikację mobilną, tworzy konto z tymi samymi danymi co w aplikacji do zamawiania posiłków. Następnie loguje się i dostaje kod QR jako identyfikator. Dyżurny korzysta z aplikacji w wersji skanera kodów QR i dostaje informację, jaki posiłek zamawiała osoba, oraz czy już go odebrała. Aplikacja automatyzuje proces z punktu 3 oraz znacząco przyspiesza i ułatwia pracę dyżurnych.
 ### Jakie języki programowania/technologie zastosowaliśmy?
-Java![java](https://github.com/BartekASTAR/ulobiady/assets/71331036/e701ff4f-2f31-4ef5-a324-3af7d5fccd8d)
+- Java
+- Android studio
+- Ubuntu
+- Apache
+- MySQL
+- PHP
+  LAMP, RestAPI,
+### Jak działą aplikacja? (Dokładniej)
