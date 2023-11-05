@@ -20,3 +20,4 @@ To proste! Uczeń pobiera aplikację mobilną, tworzy konto z tymi samymi danymi
 - PHP
   LAMP, RestAPI,
 ### Jak działą aplikacja? (Dokładniej)
+wymyślić nazwę aplikacji, zmienić ikonki, dokończyć pisać readme,
