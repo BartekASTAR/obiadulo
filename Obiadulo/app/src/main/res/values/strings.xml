@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Obiadulo</string>
+    <string name="name">Imię</string>
+    <string name="surname">Nazwisko</string>
+    <string name="clasa">Klasa</string>
+    <string name="password">Hasło</string>
+    <string name="qr_code">Kod QR</string>
+    <string name="enter_your_info">Wprowadź swoje informacje</string>
+    <string name="generate_qr_code">Wygeneruj kod QR</string>
+</resources>
