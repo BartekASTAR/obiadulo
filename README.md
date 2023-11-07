@@ -40,6 +40,4 @@ Aplikacja ma dodane 10 przykładowych użytkowników wraz z zamówieniami. Wzór
 Imię: test% Nazwisko: test % Klasa: 1a Hasło: test%, gdzie % to liczba od 1 do 10
 
 ## Działanie
-Użytkownik tworzy konto. Do konta przypisywany jest identyfikator, na podstawie którego generowany jest kod QR. Kiedy skanujemy kod użytkownika, sprawdzamy w bazie danych czy dana osoba zamówił posiłek, oraz rodzaj tego posiłku. Kiedy posiłek zostanie odebrany, w bazie aktualizowany jest status zamówienia i godzina odebrania. Kiedy odoba próbuje skanować kod już odebranego posiłku, generowany jest stosowny komunikat. 
-
-apisać działanie, backend, 
+Użytkownik tworzy konto. Do konta przypisywany jest identyfikator, na podstawie którego generowany jest kod QR. Kiedy skanujemy kod użytkownika, sprawdzamy w bazie danych czy dana osoba zamówił posiłek, oraz rodzaj tego posiłku. Kiedy posiłek zostanie odebrany, w bazie aktualizowany jest status zamówienia i godzina odebrania. Kiedy odoba próbuje skanować kod już odebranego posiłku, generowany jest stosowny komunikat. Komunikacja klient-serwer następuje dzięki skryptom PHP umiejscowionym na serwerze. Kiedy potrzeba pobrać lub wysłać jakieś informacje, wysyłane jest odpowiednie zapytanie HTTP aktywujące odpowiedni skrypt.
