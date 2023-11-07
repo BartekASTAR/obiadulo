@@ -35,6 +35,11 @@ W aplikacji trzeba jeszcze dopracować UI, oraz zadbać o lepsze szyfrowanie wym
 Przede wszytskim nasza aplikacja rozwiązuje realny problem. Problem, który zauważyliśmy w naszej szkole, ale który może dotyczyć również innych szkół. Ponadto, nasze rozwiązanie jest proste oraz intuicyjne w obsłudze. Aplikacja posiada również duży potencjał na rozwinięcie w dużo bardziej zaawansowny system. Warto jeszcze wspomnieć, że był to nasz pierwszy projekt wykorzystujący Javę, Android Studio jak i popularny stos technologiczny LAMP.
 
 
-wymyślić nazwę aplikacji(ULObiady), zmienić ikonki, dokończyć pisać readme, wrzucić do repozytorium obie plaikacjie + pliki apk, wyczścić bazę danych i dodać trochę przykładowych użytkowników dla testowania
+## Testowanie aplikacji
+Aplikacja ma dodane 10 przykładowych użytkowników wraz z zamówieniami. Wzór konta:
+Imię: test% Nazwisko: test % Klasa: 1a Hasło: test%, gdzie % to liczba od 1 do 10
 
-apisać działanie, wzór testowych użytkowników, backend, 
+## Działanie
+Użytkownik tworzy konto. Do konta przypisywany jest identyfikator, na podstawie którego generowany jest kod QR. Kiedy skanujemy kod użytkownika, sprawdzamy w bazie danych czy dana osoba zamówił posiłek, oraz rodzaj tego posiłku. Kiedy posiłek zostanie odebrany, w bazie aktualizowany jest status zamówienia i godzina odebrania. Kiedy odoba próbuje skanować kod już odebranego posiłku, generowany jest stosowny komunikat. 
+
+apisać działanie, backend, 
