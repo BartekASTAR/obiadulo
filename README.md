@@ -14,11 +14,11 @@ Punkt 3. zajmuje zdecydowanie za dużo czasu. Dyżurni gubią się w kartkach, n
 Nasza aplikacja automatyzuje proces powolnego wydawania obiadów w szkołach które nie posiadają stołówki. Porzucamy sposób w którym wykorzystywane jest wiele kartek z listami imion i nazwisk i zastępujemy je kodami QR które identyfikują i upoważniają nas do odebrania posiłku. Projekt automatyzuje proces manualnego sprawdzania kartek i znacząco przyspiesza i ułatwia cały proces oraz pracę dyżurnych.
 
 ### 2) W jakich językach programowania, jakich technologiach powstała aplikacja/narzędzie?
-Java -> aplikacja mobilna pisana w środowisku Android Studio
-Ubuntu -> serwer do hostowania bazy danych i obsługi zapytań
-Apache HTTP Server -> obsługa komunikacji między aplikacją mobilną a serwerem
-MySQL -> wykorzystany do obsługi bazy danych
-PHP -> skrypty pozwoliły na komunikację między aplikacja mobilną a serwerem
+- Java -> aplikacja mobilna pisana w środowisku Android Studio
+- Ubuntu -> serwer do hostowania bazy danych i obsługi zapytań
+- Apache HTTP Server -> obsługa komunikacji między aplikacją mobilną a serwerem
+- MySQL -> wykorzystany do obsługi bazy danych
+- PHP -> skrypty pozwoliły na komunikację między aplikacja mobilną a serwerem
 
 ### 3) Opisz działanie Waszej aplikacji/narzędzia (W jaki sposób działa Wasza aplikacja? Co może dzięki niej osiągnąć użytkownik? Jaką ma funkcjonalność?)
 To proste! Uczeń pobiera aplikację mobilną, tworzy konto z tymi samymi danymi co w aplikacji do zamawiania posiłków(aplikacja dostawcy). Następnie loguje się i dostaje kod QR jako identyfikator. Dyżurny korzysta z aplikacji w wersji skanera kodów QR i dostaje informację, jaki posiłek zamawiała osoba, oraz czy już go odebrała. Aplikacja automatyzuje proces z punktu 3 oraz znacząco przyspiesza i ułatwia pracę dyżurnych.
@@ -26,7 +26,7 @@ To proste! Uczeń pobiera aplikację mobilną, tworzy konto z tymi samymi danymi
 ### 4) Jak widzicie dalszy rozwój Waszego rozwiązania? (W jaki sposób Wasz projekt mógłby zostać wdrożony lub rozwijany? Jacy partnerzy mogliby się zaangażować w jego rozwój?)
 Przede wszystkim należałoby zaangażować szkołę w celu zezwolenia na wdrożenie rozwiązania w procesie wydawania obiadów. Jeszcze ważniejsze jest otrzymanie danych związanych z zamówieniami uczniów. W takim przypadku potrzebny byłby program konwertujący plik z danymi dostawcy na odpowiednie rekordy w bazie danych aplikacji (Python sprawdziłby się przy takiej automatyzacji znakomicie). Potrzebaby zezwolenia na zarządzanie danymi osobowymi uczniów.
 
-Innym pomysłem na rozwinięcie jest zastąpienie kodów QR kartami NFC lub brelokami RFiD. Rezygnujemy wtedy z aplikacji klienta, a skaner QR kodó zastępujemy czytnikiem NFC/RFiD. Na tym etapie zrezygnowaliśmy z tego pomysłu tworząc bardziej budżetowe rozwiązanie. Aplikacja ma potencjał przekształcenia z prostego programu automatyzującego wydawanie obiadów na zintegrowaną platformę do zamawiania i odbierania posiłków. Możnaby zrezygnować wtedy z aplikacji dostawcy. Jest to dość mocno ambitna wizja na przyszłościowy rozwój.
+Innym pomysłem na rozwinięcie jest zastąpienie kodów QR kartami NFC lub brelokami RFiD. Rezygnujemy wtedy z aplikacji klienta, a skaner QR kodów zastępujemy czytnikiem NFC/RFiD. Na tym etapie zrezygnowaliśmy z tego pomysłu tworząc bardziej budżetowe rozwiązanie. Aplikacja ma potencjał przekształcenia z prostego programu automatyzującego wydawanie obiadów na zintegrowaną platformę do zamawiania i odbierania posiłków. Możnaby zrezygnować wtedy z aplikacji dostawcy. Jest to dość mocno ambitna wizja na przyszłościowy rozwój.
 
 ### 5) Jakie widzicie zagrożenia/ryzyka dla Waszego rozwiązania? (Opisz zdiagnozowane zagrożenia jak np. problemy technologiczne czy konieczność zaangażowania innych podmiotów np. urząd miasta)
 W aplikacji trzeba jeszcze dopracować UI, oraz zadbać o lepsze szyfrowanie wymiany danych między aplikacją a bazą danych. Zasoby, którymi dysponuje serwer mogą nie być w stanie obsłużyć wszystkich zapytań w odpowiednim czasie. Potrzeba zaangażowania takich podmiotów jak szkoła oraz dostawca.
